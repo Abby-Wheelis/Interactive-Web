@@ -1,0 +1,40 @@
+var sayHi =function ()
+{
+    
+    var node = document.createElement("button");
+    console.log("node",node);
+    node.innerText = "Floor 2, Door 1";
+    
+    var body = document.querySelector("body");
+        body.appendChild(node);
+
+    
+    var button = document.querySelector("#doorone");
+}
+
+function Function2()
+{
+    var words=document.createElement("button");
+    words.innerHTML="Floor 2, Door 2";
+    document.body.appendChild(words);
+}
+
+function Function3()
+{
+    var message = document.createElement("p");
+    message.innerHTML = "Step Two";
+    document.body.appendChild(message);
+}
+
+function Function4()
+{
+    var words=document.createElement("button");
+    words.innerHTML="Floor 3, Door 3";
+    document.body.appendChild(words);
+}
+
+function Function5 ()
+{
+    document.getElementById("doortwo").href="pagetwo.html";
+    window.location = "pagetwo.html";
+}
